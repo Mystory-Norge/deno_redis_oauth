@@ -9,7 +9,8 @@
     "@std/datetime": "jsr:@std/datetime@^0.225.2",
     "@std/fs": "jsr:@std/fs@^1.0.4",
     "@std/http": "jsr:@std/http@^1.0.8",
-    "@std/testing": "jsr:@std/testing@^1.0.3"
+    "@std/testing": "jsr:@std/testing@^1.0.3",
+    "ioredis": "npm:ioredis@^5.0.0"
   },
   "tasks": {
     "demo": "deno run --allow-net --env --allow-env --unstable-kv --watch demo.ts",

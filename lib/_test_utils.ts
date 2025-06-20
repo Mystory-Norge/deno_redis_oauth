@@ -3,7 +3,7 @@ import { assert, assertEquals } from "@std/assert";
 import type { OAuth2ClientConfig } from "@cmd-johnson/oauth2-client";
 import { STATUS_CODE } from "@std/http";
 
-import type { OAuthSession } from "./_kv.ts";
+import type { OAuthSession } from './_redis.ts';
 
 export function randomOAuthConfig(): OAuth2ClientConfig {
   return {

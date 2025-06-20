@@ -22,7 +22,7 @@ import {
   isSiteSession,
   setOAuthSession,
   setSiteSession,
-} from "./_kv.ts";
+} from './_redis.ts';
 
 /** Options for {@linkcode signIn}. */
 export interface SignInOptions {
